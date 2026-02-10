@@ -12,10 +12,10 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '')  # Telegram Bot Token
 
 # 👑, Channels & Logs
 BIN_CHANNEL = int(environ.get("BIN_CHANNEL", '-1002625105380'))  # File storage channel
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", '-1002206233283'))  # General log channel
-PREMIUM_LOGS = int(environ.get("PREMIUM_LOGS", '-1002206233283'))  # Premium user actions log
-VERIFIED_LOG = int(environ.get('VERIFIED_LOG', '-1002206233283'))  # Verified user actions log
-SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", "-1002302874208"))
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", '-1002625105380'))  # General log channel
+PREMIUM_LOGS = int(environ.get("PREMIUM_LOGS", '-1002625105380'))  # Premium user actions log
+VERIFIED_LOG = int(environ.get('VERIFIED_LOG', '-1002625105380'))  # Verified user actions log
+SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", "-1002625105380"))
 
 # add admin IDs 11111 2222 3333 and add auth channel IDs -100XXX -100XXX -100XXX
 ADMINS = list(map(int, environ.get('ADMINS', '1685470205').split()))  # List of admin user IDs
